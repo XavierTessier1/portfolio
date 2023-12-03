@@ -1,0 +1,102 @@
+.contact-content {
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.page-name {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.contact-main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.contact-input {
+    height: 2.5em;
+    width: 345px;
+    margin-bottom: 1em;
+    border: 0.1px solid black;
+    background-color: rgb(240, 240, 240);
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.contact-input:focus {
+    outline-color: rgb(43, 44, 44);
+}
+
+.message {
+    width: 345px;
+    height: 15em;
+}
+
+.button-placer {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+
+.send {
+    width: 8em;
+    height: 2.5em;
+}
+
+.contact-content .github {
+    height: 2.5em;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    margin-top: 1em;
+    list-style-type: none;
+    padding: 0;
+}
+
+.linkedin {
+    margin-top: 0.2em;
+    height: 2em;
+}
+
+.social-media {
+    padding: 10px;
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.social-media .title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.contact-form-display {
+    width: 70%;
+    padding: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contact-form-display .title {
+    text-align: center;
+    font-size: 1.5em;
+}

@@ -1,0 +1,56 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-list {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .link:hover {
+    color: #000000a6;
+}
+
+.footer-identification {
+    font-weight: bold;
+}
+
+.footer-div {
+    width: 220px;
+}
+
+.separator {
+    border-left: 1px solid #000000;
+    height:10em;
+    width: 0px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.linkedin {
+    height: 2em;
+}
+
+.github {
+    height: 2em;
+}

@@ -3,54 +3,123 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 11em;
     background-color: #f0f0f0;
     border-top: 1px solid #e0e0e0;
-    padding: 10px;
+    padding: 5px;
+}
+
+.footer-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: -2.3em;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+    gap: 2em;
+}
+
+.footer .icon {
+    margin-right: 0.5em;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -1.5em;
+}
+
+.linkedin {
+    height: 1.8em;
+}
+
+.github {
+    height: 1.8em;
+}
+
+.footer .cv {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .cv:hover {
+    color: #000000a6;
 }
 
 .footer-nav-list {
     list-style-type: none;
     padding: 0;
-}
-
-.social-list {
     display: flex;
-    gap: 1em;
     flex-direction: row;
     align-items: center;
+    width: 18em;
+    justify-content: space-between;
 }
 
 .footer .link {
+    color: #0000009c;
     text-decoration: none;
-    color: black;
 }
 
 .footer .link:hover {
-    color: #000000a6;
+    color: #000000;
 }
 
-.footer-identification {
-    font-weight: bold;
-}
-
-.footer-div {
-    width: 220px;
-}
-
-.separator {
+.footer-cv {
     border-left: 1px solid #000000;
-    height:10em;
-    width: 0px;
-    margin-left: 1em;
+    padding-left: 1em;
     margin-right: 1em;
 }
 
-.linkedin {
+.black-bar {
+    position: relative;
+    left: -5px;
+    background-color: #c5c5c5;
     height: 2em;
+    padding: 5px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.github {
-    height: 2em;
+div.social-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-sec-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 6em;
+    justify-content: space-between;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+    gap: 2em;
+    margin-left: 1em;
+}
+
+.footer-div {
+    height: 120px;
 }

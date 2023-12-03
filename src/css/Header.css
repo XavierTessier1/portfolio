@@ -8,8 +8,19 @@
     left: -5px;
 }
 
+div.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 .primary-nav {
     list-style-type: none;
+    padding: 0;
 }
 
 .header .link {
@@ -39,5 +50,10 @@
 }
 
 .active {
-    background-color: #97979767;
+    color: #8a8a8a;
+    text-decoration: underline; 
+}
+
+.active .link {
+    color: #8a8a8a;
 }

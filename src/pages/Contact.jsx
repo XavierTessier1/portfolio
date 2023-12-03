@@ -29,9 +29,14 @@ const Contact = () => {
             <div className="contact-main">
                 <div className="contact-form-display">
                     <form ref={form} onSubmit={sendEmail} className='contact-form'>
-                        <input type="text" name="user_name" className='contact-input' placeholder='Votre nom' />
-                        <input type="email" name="user_email" className='contact-input' placeholder='Votre courriel' />
-                        <textarea name="message" className='contact-input message' placeholder='Votre message' />
+                        <div className="input-placer">
+                            <div className="creds">
+                                <input type="text" name="user_name" className='contact-input' placeholder='Votre nom' />
+                                <input type="email" name="user_email" className='contact-input' placeholder='Votre courriel' />
+                                <input type="email" name="user_phone" className='contact-input' placeholder='Votre numéro de téléphone' />
+                            </div>
+                            <textarea name="message" className='contact-input message' placeholder='Votre message' />
+                        </div>
                         <div className="button-placer">
                             <input type="submit" value="Envoyer" className='send' />
                         </div>

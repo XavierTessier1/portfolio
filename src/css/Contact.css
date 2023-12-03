@@ -17,18 +17,15 @@
     justify-content: space-between;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-}
+
 
 .contact-input {
-    height: 2.5em;
+    height: 3em;
     width: 345px;
     margin-bottom: 1em;
     border: 0.1px solid black;
     background-color: rgb(240, 240, 240);
+    font-size: 1em;
 }
 
 ::placeholder {
@@ -41,13 +38,13 @@
 
 .message {
     width: 345px;
-    height: 15em;
+    height: 14em;
 }
 
 .button-placer {
     display: flex;
     justify-content: center;
-    width: 350px;
+    width: 700px;
 }
 
 .send {
@@ -99,4 +96,16 @@
 .contact-form-display .title {
     text-align: center;
     font-size: 1.5em;
+}
+
+.creds {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-placer {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    gap : 1em;
 }

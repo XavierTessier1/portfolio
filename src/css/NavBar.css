@@ -38,3 +38,29 @@
     width: 1rem;
     margin: 1rem;
 }
+
+@media screen and (max-width: 840px)  {
+    .desktopMenuButton {
+        display: none;
+    }
+
+    .navBar {
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 3;
+    }
+
+    .desktopMenuListItem {
+        font-size: 0.7rem;
+    }
+
+    @media screen and (max-width: 480px)  {
+        .desktopMenuListItem {
+            font-size: 0.65rem;
+        }
+    }
+}

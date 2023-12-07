@@ -1,0 +1,134 @@
+#works {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.workBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+.worksImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.workTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.worksImg {
+    object-fit: cover;
+    height: 20rem;
+    width: 20rem;
+    margin-right: 1rem;
+}
+
+.worksListName {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.worksSkills {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.worksSkills>li {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.worksButton {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+
+.worksButton:hover {
+    background: rgb(78, 123, 221);
+    color: white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 690px)  {
+    #works {
+        height: auto;
+    }
+
+    .worksImg {
+        height: 10rem;
+        width: 10rem;
+    }
+} 
+
+@media screen and (max-width: 585px)  {
+    .worksImg {
+        height: 48vw;
+    }
+
+    .workTitle {
+        font-size: 4vw;
+    }
+
+    .worksListName {
+        font-size: 2.5vw;
+    }
+
+    .worksSkills>li {
+        font-size: 2vw;
+    }
+} 
+
+@media screen and (max-width: 460px)  {
+    .worksImg {
+        height: 30vw;
+    }
+
+    .workBar {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1.5rem 2rem;
+        border-radius: 0.5rem;
+        background: rgb(50, 50, 50);
+    }
+
+    .worksButton {
+        font-size: 2vw;
+    }
+} 

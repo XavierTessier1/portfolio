@@ -1,7 +1,7 @@
 import '../css/NavBar.css'
 import { useState, useEffect } from "react";
 import { IoTimeOutline } from "react-icons/io5";
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 
 const NavBar = () => {
     const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -16,10 +16,10 @@ const NavBar = () => {
     return (
         <nav className="navBar">
             <div className="desktopMenu">
-                <Link className='desktopMenuListItem'>Accueil</Link>
-                <Link className='desktopMenuListItem'>À propos</Link>
-                <Link className='desktopMenuListItem'>Projets</Link>
-                <Link className='desktopMenuListItem'>Contactez moi</Link>
+                <ScrollLink to='#intro' className='desktopMenuListItem'>Accueil</ScrollLink>
+                <ScrollLink to='#skills' className='desktopMenuListItem'>À propos</ScrollLink>
+                <ScrollLink to='#skills' className='desktopMenuListItem'>Projets</ScrollLink>
+                <ScrollLink to='#skills' className='desktopMenuListItem'>Contactez moi</ScrollLink>
             </div>
             <button className="desktopMenuButton">
                 <IoTimeOutline className='desktopIconButton'/> {time}

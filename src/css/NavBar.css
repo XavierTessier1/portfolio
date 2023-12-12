@@ -41,6 +41,12 @@
     margin: 1rem;
 }
 
+.active {
+    color: rgb(78, 123, 221);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(78, 123, 221);
+}
+
 @media screen and (max-width: 840px)  {
     .desktopMenuButton {
         display: none;

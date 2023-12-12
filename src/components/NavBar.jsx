@@ -16,10 +16,10 @@ const NavBar = () => {
     return (
         <nav className="navBar">
             <div className="desktopMenu">
-                <ScrollLink to='#intro' className='desktopMenuListItem'>Accueil</ScrollLink>
-                <ScrollLink to='#skills' className='desktopMenuListItem'>À propos</ScrollLink>
-                <ScrollLink to='#skills' className='desktopMenuListItem'>Projets</ScrollLink>
-                <ScrollLink to='#skills' className='desktopMenuListItem'>Contactez moi</ScrollLink>
+                <ScrollLink activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Accueil</ScrollLink>
+                <ScrollLink activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>À propos</ScrollLink>
+                <ScrollLink activeClass='active' to='works' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Projets</ScrollLink>
+                <ScrollLink activeClass='active' to='platforms' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Contactez moi</ScrollLink>
             </div>
             <button className="desktopMenuButton">
                 <IoTimeOutline className='desktopIconButton'/> {time}

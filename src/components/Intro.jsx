@@ -14,7 +14,7 @@ const Intro = () => {
                 </span>
                 <p className="introParagraph">Je suis un programmeur web avec de l'expérience dans plusieurs frameworks <br /> et langages de programmation</p>
             </div>
-            <img src="img/SNA_0696.jpg" className='bg' alt="" />
+            <img src="img/SNA_0696_BA.jpg" className='bg' alt="" />
         </section>
     )
 };

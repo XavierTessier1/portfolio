@@ -1,7 +1,7 @@
 import '../css/Skills.css'
 import { FaReact } from "react-icons/fa";
 import { VscDebug } from "react-icons/vsc";
-import { BsGearWide } from "react-icons/bs";
+import { RiTeamFill } from "react-icons/ri";
 
 const Skills = () => {
     return (
@@ -32,10 +32,10 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skillBar">
-                    <BsGearWide className='skillBarIcon'/>
+                    <RiTeamFill className='skillBarIcon'/>
                     <div className="skillBarText">
-                        <h2>Test</h2>
-                        <p>Test</p>
+                        <h2>Travail d'équipe</h2>
+                        <p>Je suis quelqu'un qui peut adapter mes plans avec les idées des autres et qui n'a pas peur de donner ses idées pour améliorer un projet.</p>
                     </div>
                 </div>
             </div>

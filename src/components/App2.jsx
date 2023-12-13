@@ -5,10 +5,14 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer2 from './Footer2';
+import { Helmet } from 'react-helmet';
 
 const App2 = () => {
   return (
     <div className="App">
+      <Helmet>
+        <title>Mon portfolio</title>
+      </Helmet>
       <NavBar/>
       <Intro/>
       <Skills/>

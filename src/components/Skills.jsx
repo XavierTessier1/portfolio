@@ -14,7 +14,7 @@ const Skills = () => {
                 J'ai aussi de l'expérience avec des frameworks comme React, Laravel et des engins de jeux comme Unity. <br />
             </span>
             <span className='cv skillDesc'>
-                Vous pouvez voir mon cv en cliquant ici : <a href="pdf/xavierTessierCv.pdf" target='_blank' className='link'> voir mon cv</a>
+                Vous pouvez voir mon cv en cliquant <a href="pdf/xavierTessierCv.pdf" target='_blank' className='cvLink'>ici</a> 
                 </span>
             <div className="skillBars">
                 <div className="skillBar">

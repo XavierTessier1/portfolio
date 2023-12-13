@@ -28,6 +28,15 @@
 
 }
 
+.cvLink {
+    font-weight: 500;
+    color: white;
+}
+
+.cvLink:hover {
+    color: rgb(78, 123, 221);
+    text-decoration: underline;
+}
 .hello {
     font-size: 1.75rem;
     font-weight: 100;

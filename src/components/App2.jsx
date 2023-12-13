@@ -11,7 +11,7 @@ const App2 = () => {
   return (
     <div className="App">
       <Helmet>
-        <title>Mon portfolio</title>
+        <title>Portfolio de Xavier</title>
       </Helmet>
       <NavBar/>
       <Intro/>
